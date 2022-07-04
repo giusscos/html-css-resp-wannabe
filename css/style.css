@@ -135,5 +135,14 @@ img {
 }
 /* MOBILE */
 @media screen and (max-width: 480px){
-    /* some code */
+    .row{
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+    .lessons .col,
+    .steps .col,
+    .why-us .col{
+        width: 100%;
+    }
+    
 }
