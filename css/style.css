@@ -47,7 +47,12 @@ img {
 
 /* LAYOUT */
 .container {
-    width: 1140px;
+    /* 
+        Spiegazione Esercizio BONUS in fondo XD
+        Errore > width: 1140px; 
+
+    */
+    /* Soluzione > */max-width: 1140px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -143,6 +148,11 @@ img {
     .steps .col,
     .why-us .col{
         width: 100%;
-    }
-    
+    }   
 }
+/************************************************
+    SOLUZIONE BONUS 
+
+    La larghezza del container era espressa in: "width"; 
+    Ho sostituito con: "max-width";
+ ************************************************/
