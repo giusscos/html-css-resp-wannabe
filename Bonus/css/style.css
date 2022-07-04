@@ -47,7 +47,7 @@ img {
 
 /* LAYOUT */
 .container {
-    width: 1140px; 
+    max-width: 1140px; 
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -145,3 +145,8 @@ img {
         width: 100%;
     }   
 }
+/* 
+    SOLUZIONE BONUS
+    Ho sostituito nel container la larghezza esperra in: "width" con
+    "max-width"
+*/
