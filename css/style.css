@@ -143,5 +143,13 @@ img {
     .steps .col,
     .why-us .col{
         width: 100%;
-    }   
+    }
+    .steps{
+        margin-bottom: 0;
+    }
+    .why-us{
+        padding-top: 48px;
+        background-color: #000;
+        margin-bottom: 0;
+    }
 }
